@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="55166eef-126a-439c-aca5-fbc17db8b7cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-1/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-1/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-1/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-1/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-1/src/main/java/dz/esisba/ms1/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-1/src/main/java/dz/esisba/ms1/Ms1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-1/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-1/src/test/java/dz/esisba/ms1/Ms1ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-2/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-2/src/main/java/dz/esisba/ms2/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-2/src/main/java/dz/esisba/ms2/Ms2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-2/src/test/java/dz/esisba/ms2/Ms2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-3/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-3/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-3/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-3/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-3/src/main/java/dz/esisba/ms3/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-3/src/main/java/dz/esisba/ms3/Ms3Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-3/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-3/src/test/java/dz/esisba/ms3/Ms3ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfe-microservices.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2hh17wl20zLJkejKoykGxq7ySvh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven.ms-1 [install].executor": "Run",
+    "Maven.ms-2 [install].executor": "Run",
+    "Maven.ms-3 [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Ms1Application.executor": "Run",
+    "Spring Boot.Ms2Application.executor": "Run",
+    "Spring Boot.Ms3Application.executor": "Run",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/madd47emz/pfe-microservices/ms-3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ms-3" />
+      <recent name="$PROJECT_DIR$/ms-2" />
+      <recent name="$PROJECT_DIR$/ms-1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dz.esisba.ms3" />
+      <recent name="dz.esisba.ms2" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Ms3Application">
+    <configuration name="Ms1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="ms-1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dz.esisba.ms1.Ms1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ms2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="ms-2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dz.esisba.ms2.Ms2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ms3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="ms-3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dz.esisba.ms3.Ms3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55166eef-126a-439c-aca5-fbc17db8b7cc" name="Changes" comment="" />
+      <created>1718031333666</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718031333666</updated>
+      <workItem from="1718031334664" duration="3787000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

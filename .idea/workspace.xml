@@ -4,46 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55166eef-126a-439c-aca5-fbc17db8b7cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-1/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-1/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-1/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-1/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-1/src/main/java/dz/esisba/ms1/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-1/src/main/java/dz/esisba/ms1/Ms1Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-1/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-1/src/test/java/dz/esisba/ms1/Ms1ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-2/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-2/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-2/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-2/src/main/java/dz/esisba/ms2/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-2/src/main/java/dz/esisba/ms2/Ms2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-2/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-2/src/test/java/dz/esisba/ms2/Ms2ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-3/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-3/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-3/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-3/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-3/src/main/java/dz/esisba/ms3/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-3/src/main/java/dz/esisba/ms3/Ms3Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-3/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-3/src/test/java/dz/esisba/ms3/Ms3ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pfe-microservices.iml" afterDir="false" />
+    <list default="true" id="55166eef-126a-439c-aca5-fbc17db8b7cc" name="Changes" comment="first">
+      <change beforePath="$PROJECT_DIR$/ms-1/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ms-1/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-2/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ms-2/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-3/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ms-3/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "madd47emz"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/madd47emz/pfe-microservices.git",
+    "accountId": "3b4fa2bc-72c0-46b6-ace9-1082256e77f3"
+  }
+}]]></component>
   <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
   <component name="KubernetesApiProvider"><![CDATA[{
   "isMigrated": true
@@ -166,8 +142,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718031333666</updated>
-      <workItem from="1718031334664" duration="3787000" />
+      <workItem from="1718031334664" duration="4215000" />
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <option name="closed" value="true" />
+      <created>1718035293103</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718035293103</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,5 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
 </project>

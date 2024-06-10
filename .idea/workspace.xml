@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55166eef-126a-439c-aca5-fbc17db8b7cc" name="Changes" comment="first">
-      <change beforePath="$PROJECT_DIR$/ms-1/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ms-1/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-2/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ms-2/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-3/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ms-3/Dockerfile" afterDir="false" />
+    <list default="true" id="55166eef-126a-439c-aca5-fbc17db8b7cc" name="Changes" comment="dockerfiles modification">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-1/ms-1-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ms-1/ms-1-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-1/ms-1-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/ms-1/ms-1-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-2/ms-2-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ms-2/ms-2-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-2/ms-2-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/ms-2/ms-2-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-2/src/main/java/dz/esisba/ms2/Ms2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-2/src/main/java/dz/esisba/ms2/Ms2Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-2/src/test/java/dz/esisba/ms2/Ms2ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-2/src/test/java/dz/esisba/ms2/Ms2ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-3/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-3/ms-3-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-3/ms-3-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-3/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,25 +36,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "madd47emz"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;madd47emz&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/madd47emz/pfe-microservices.git",
-    "accountId": "3b4fa2bc-72c0-46b6-ace9-1082256e77f3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/madd47emz/pfe-microservices.git&quot;,
+    &quot;accountId&quot;: &quot;3b4fa2bc-72c0-46b6-ace9-1082256e77f3&quot;
   }
-}]]></component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2hh17wl20zLJkejKoykGxq7ySvh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -68,9 +79,9 @@
     "Spring Boot.Ms2Application.executor": "Run",
     "Spring Boot.Ms3Application.executor": "Run",
     "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/madd47emz/pfe-microservices/ms-3",
+    "last_opened_file_path": "/home/madd47emz/pfe-microservices/ms-2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,13 +93,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ms-3" />
       <recent name="$PROJECT_DIR$/ms-2" />
       <recent name="$PROJECT_DIR$/ms-1" />
+      <recent name="$PROJECT_DIR$/ms-3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="dz.esisba.ms3" />
       <recent name="dz.esisba.ms2" />
+      <recent name="dz.esisba.ms1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -129,8 +141,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
       </set>
     </attachedChunks>
   </component>
@@ -142,7 +154,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718031333666</updated>
-      <workItem from="1718031334664" duration="4215000" />
+      <workItem from="1718031334664" duration="4685000" />
+      <workItem from="1718037207801" duration="554000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -152,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718035293103</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dockerfiles modification">
+      <option name="closed" value="true" />
+      <created>1718035576778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718035576778</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +182,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="dockerfiles modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="dockerfiles modification" />
   </component>
 </project>

@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ms-2-depl
+  labels:
+    app: ms-2
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ms-2
+  template:
+    metadata:
+      name: ms-2-depl
+      labels:
+        app: ms-2
+    spec:
+      nodeSelector:
+        node-role.kubernetes.io/worker: "true"
+      containers:
+        - name: ms-2
+          image: madd47emz/pfe-microservices:ms2
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8091
+              protocol: TCP
+      restartPolicy: Always
+      

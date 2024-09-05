@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ms-1-srv
+spec:
+  selector:
+    app: ms-1
+  ports:
+    - protocol: TCP
+      port: 8090
+      targetPort: 8090
+  type: NodePort
+  externalTrafficPolicy: Local #to prevent fowarding request to other pods in another nodes
+  

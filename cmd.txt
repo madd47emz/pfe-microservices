@@ -1,0 +1,4 @@
+sudo cat /var/lib/rancher/k3s/server/node-token
+
+curl -sfL https://get.k3s.io | K3S_URL=https://192.168.1.43:6443 | K3S_TOKEN=K10fbb0e43947d2e40517397df8d14db70583d15295ae39d1bb312201dcbbd84d6b::server:84df15c3e1ecacd1a8205a8981ca6b35 | sh -
+

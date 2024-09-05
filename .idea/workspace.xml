@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55166eef-126a-439c-aca5-fbc17db8b7cc" name="Changes" comment="changing from openjdk 21 to openjdk 17">
-      <change afterPath="$PROJECT_DIR$/k8s-config/ms-1-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s-config/ms-1.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s-config/ms-2-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s-config/ms-2.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s-config/ms-3-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s-config/ms-3.yaml" afterDir="false" />
+    <list default="true" id="55166eef-126a-439c-aca5-fbc17db8b7cc" name="Changes" comment="add noticible cpu and ram load end points">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-1/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ms-1/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-1/ms-1-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-1/ms-1-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-1/src/main/java/dz/esisba/ms1/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-1/src/main/java/dz/esisba/ms1/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-2/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ms-2/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-2/ms-2-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-2/ms-2-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-2/src/main/java/dz/esisba/ms2/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-2/src/main/java/dz/esisba/ms2/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-3/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ms-3/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-3/ms-3-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-3/ms-3-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-3/src/main/java/dz/esisba/ms3/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-3/src/main/java/dz/esisba/ms3/Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +88,11 @@
       <recent name="$PROJECT_DIR$/ms-2" />
       <recent name="$PROJECT_DIR$/ms-1" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ms-3" />
+      <recent name="$PROJECT_DIR$/ms-2" />
+      <recent name="$PROJECT_DIR$/ms-1" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="dz.esisba.ms3" />
       <recent name="dz.esisba.ms2" />
@@ -170,6 +156,7 @@
       <workItem from="1725529533521" duration="4258000" />
       <workItem from="1725536968464" duration="745000" />
       <workItem from="1725546511537" duration="262000" />
+      <workItem from="1725547829554" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -195,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718037844365</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add noticible cpu and ram load end points">
+      <option name="closed" value="true" />
+      <created>1725548095852</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725548095852</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +201,7 @@
     <MESSAGE value="first" />
     <MESSAGE value="dockerfiles modification" />
     <MESSAGE value="changing from openjdk 21 to openjdk 17" />
-    <option name="LAST_COMMIT_MESSAGE" value="changing from openjdk 21 to openjdk 17" />
+    <MESSAGE value="add noticible cpu and ram load end points" />
+    <option name="LAST_COMMIT_MESSAGE" value="add noticible cpu and ram load end points" />
   </component>
 </project>

@@ -1,3 +1,6 @@
+
+![system_archi drawio (2)](https://github.com/user-attachments/assets/427a6701-bdb8-41ce-b3a9-9a9625382e84)
+
 # Fog Computing Setup:
 
 In this research, we built a bare-metal fog environment using k3s (a lightweight Kuber-netes distribution) on multiple Raspberry Pi4 devices connected via Wi-Fi. A Single-server Setup with an Embedded DB. K3s cluster consists of:

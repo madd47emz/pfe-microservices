@@ -6,6 +6,14 @@ In this research, we built a bare-metal fog environment using k3s (a lightweight
 
 2. **Multiple Worker Nodes**: These nodes are responsible for running the microservice instances. Each worker node runs a set of microservices in pods.
 
+# Monitoring CLuster & Metrics Collection for Model
+
+To monitor the performance of the fog computing environment, we integrated Prometheus for data collection and Grafana for visualization. 
+
+1. **Prometheus** gathered metrics such as CPU and memory usage, For nodes and pods, providing real-time insights into resource consumption and system health.
+
+3. Using **Grafana**, these metrics were visualized through customizable dashboards, allowing for real-time monitoring of resource utilization, service performance, and system alerts.
+
 # Microservices:
 
 1. The system consists of three microservices built using **Spring Boot**, each exposing a common API endpoint at /api/test.

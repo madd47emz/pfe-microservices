@@ -14,7 +14,7 @@ In this research, we built a bare-metal fog environment using k3s (a lightweight
 
 3. Each microservice will be deployed as **NodePort kubernetes service** with:
    
-  ##externalTrafficPolicy: Local to prevent fowarding request to other pods in another nodes. Such service configuration(.yaml) overrides the loadbalancing bihaviour to none.
+  **externalTrafficPolicy: Local** ##to prevent fowarding request to other pods in another nodes. Such service configuration(.yaml) overrides the loadbalancing bihaviour to none.
 
 To make the simulation more effective, Each microservice performs different workloads depending on its specific tag, as described below:
 

@@ -1,0 +1,46 @@
+
+sudo update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
+sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
+
+##################################MASTER
+sudo su -
+curl -sfL https://get.k3s.io | K3S_KUBECONFIG_MODE="644" sh -s
+export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
+cat /var/lib/rancher/k3s/server/node-token
+
+####################################AGENT
+curl -sfL https://get.k3s.io | K3S_URL=https://192.168.37.208:6443 K3S_TOKEN=K10d488b6a132ca9b067c80a6296501dbc0e276a59ef14ad739a591872ebeea1c28::server:ebc193b5e3c8b833d945a383ca5fdecd sh -
+
+-------------------------starting agent---------------------
+sudo k3s agent --token K10d488b6a132ca9b067c80a6296501dbc0e276a59ef14ad739a591872ebeea1c28::server:ebc193b5e3c8b833d945a383ca5fdecd --server https://192.168.28.208:6443 --with-node-id node10
+
+--------------------------uninstall------------------
+sudo /usr/local/bin/k3s-agent-uninstall.sh
+sudo rm -rf /var/lib/rancher/k3s
+sudo rm -rf /etc/rancher/k3s
+
+
+
+
+------------------if ip master changed-----------------
+sudo systemctl stop k3s-agent
+sudo nano /etc/systemd/system/k3s-agent.service.env
+//update master ip add
+sudo systemctl daemon-reload
+sudo systemctl start k3s-agent
+
+
+---------------------------------------k8s dashboard
+sudo k3s kubectl port-forward -n kubernetes-dashboard service/kubernetes-dashboard-kong-proxy 8443:443
+sudo k3s kubectl -n kubernetes-dashboard create token admin-user
+
+---------------------------------------Gravana
+
+'admin' user password:
+kubectl get secret --namespace monitoring grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
+
+
+
+
+
+

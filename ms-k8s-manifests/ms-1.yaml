@@ -16,11 +16,11 @@ spec:
         app: ms-1
     spec:
       nodeSelector:
-        node-role.kubernetes.io/worker: "true"
+        node-role.kubernetes.io/worker: "worker"
       containers:
         - name: ms-1
           image: madd47emz/pfe-microservices:ms1
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           ports:
             - containerPort: 8090
               protocol: TCP

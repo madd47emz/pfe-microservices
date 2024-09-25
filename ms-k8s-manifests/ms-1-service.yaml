@@ -11,4 +11,5 @@ spec:
       targetPort: 8090
   type: NodePort
   externalTrafficPolicy: Local #to prevent fowarding request to other pods in another nodes
+
   
